@@ -1,59 +1,61 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/118417547-e9409d00-b68a-11eb-8162-6afccf9288a9.png" alt="Next.js TypeScript Starter">
-</p>
+# Google Homepage Clone
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
+Clone of Google homepage built with NextJS, Typescript and Tailwind CSS for a React Frontend Developer technical assesment.
 
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=for-the-badge&color=5e17eb&labelColor=000000">
+<br />
 
-  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=for-the-badge&color=5e17eb&labelColor=000000" alt="Follow @jpedroschmitz" />
-  </a>
-</p>
+## Instructions
 
-<br>
+- Re-create https://google.com search homepage using React.
 
-A TypeScript starter for Next.js that includes all you need to build amazing projects 🔥
+- Upload your code with instructions on how to run it to [Github](https://github.com).
 
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 📄 **Commitizen** - Conventional commit messages CLI
-- 🚓 **Commitlint** - Lint commit messages
-- 🖌 **Renovate** - Dependency update tool
-- 🚫 **lint-staged** - Run linters against staged git files
-- 👷 **PR Workflow** - Run Type Check & Linters on pull requests
-- 🗂 **Absolute import** - Import folders and files using the `@` prefix
+- Ensure your implementation is responsive enough i.e. it should look code on desktop and phones.
 
-## 🚀 Getting started
+- Clicking on the 'Google Search' button should redirect to `[https://google.com/search?q={users](https://google.com/search?q={users)-text-here}`. `{users-text-here}` should be the value entered in the search input field.
 
-The best way to start with this template is using `create-next-app`.
+- Clicking the 'I'm Feeling Lucky' button should redirect to https://perfects.engineering.
 
-```
-npx create-next-app ts-next -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+- You are free to add or not add any other functionality you deem fit.
+
+- Using Nextjs and Tailwind CSS in your implementation is a huge plus.
+
+<br />
+
+## Local Installation
+
+Clone this repository
+
+```bash
+git clone https://github.com/app-generator/eleventy-soft-ui-design.git
 ```
 
-If you prefer you can clone this repository and run the following commands inside the project folder:
+Install dependencies
 
-1. `npm install` or `yarn`;
-2. `yarn dev`;
+```bash
+yarn #or npm install
+```
 
-To view the project open `http://localhost:3000`.
+Serve with hot reload at localhost:3000
 
-## 🤝 Contributing
+```bash
+yarn dev # or npm run dev
+```
 
-1. Fork this repository;
-2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
+Generate static project
 
-**After your pull request is merged**, you can safely delete your branch.
+```bash
+yarn build # or npm run build
+```
 
-## 📝 License
+<br />
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
 
----
+<br />
 
-Made with ♥ by João Pedro Schmitz
+## Credits
+
+This repo is based on a [TypeScript starter for Next.js](https://github.com/jpedroschmitz/typescript-nextjs-starter) by by João Pedro Schmitz.
