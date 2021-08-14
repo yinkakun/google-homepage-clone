@@ -27,7 +27,7 @@ Clone of Google homepage built with NextJS, Typescript and Tailwind CSS for a Re
 Clone this repository
 
 ```bash
-git clone https://github.com/app-generator/eleventy-soft-ui-design.git
+git clone https://github.com/yinkakun/google-homepage-clone.git
 ```
 
 Install dependencies
